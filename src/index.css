@@ -1,13 +1,66 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Overpass', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #131518;
 }
+
+.container {
+  width: 327px;
+  height: 360px;
+  border-radius: 15px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+  padding: 24px;
+}
+
+.second-page__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.text__inner, .second-page__text  {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #969FAD;
+  margin-top: 10px;
+}
+
+.second-page__text {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    padding: 32px;
+  }
+
+  .second-page__content {
+    padding-top: 12px;
+  }
+
+  .text__inner, .second-page__text  {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 7px;
+  }
+ }
+

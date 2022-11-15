@@ -1,0 +1,11 @@
+.image__icon {
+    width: 144px;
+    height: 96px;
+}
+
+@media screen and (min-width: 1024px) {
+    .image__icon {
+        width: 162px;
+        height: 108px;
+    }
+}

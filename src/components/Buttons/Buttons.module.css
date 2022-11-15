@@ -1,0 +1,45 @@
+.btn {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background: #262E38;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.175px;
+    text-align: center;
+    color: #7C8798;
+    cursor: pointer;
+    transition: all ease 0.5s; 
+}
+
+.btn:hover {
+    background:#FC7614;
+    color: #FFFFFF;
+}
+
+.btn:focus {
+    background: #7C8798;
+    color: #FFFFFF;
+}
+
+.btn__container {
+    display: flex;
+    column-gap: 18px;
+    margin: 24px 0;
+}
+
+@media screen and (min-width:1024px) {
+    .btn {
+        height: 51px;
+        width: 51px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+    }
+    
+    .btn__container {
+        margin: 24px 0 32px;
+        column-gap: 21px;
+    }
+}

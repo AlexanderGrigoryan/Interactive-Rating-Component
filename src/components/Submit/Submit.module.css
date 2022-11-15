@@ -1,0 +1,30 @@
+.button__submit {
+    width: 279px;
+    height: 45px;
+    border-radius: 22.5px;
+    text-transform: uppercase;
+    background: #FC7614;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.87px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.button__submit:hover {
+    background: #FFFFFF;
+    color: #FC7614;
+}
+
+@media screen and (min-width: 1024px) {
+    .button__submit {
+        width: 341px;
+        height: 45px;
+        border-radius: 22.5px;
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: 2px;
+    }
+}

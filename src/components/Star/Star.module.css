@@ -1,0 +1,28 @@
+.star__container {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #262E38;
+    margin-bottom: 16px;
+}
+
+.star__image {
+    width: 14px;
+    height: 13px;
+}
+
+@media screen and (min-width: 1024px) {
+    .star__container {
+        height: 48px;
+        width: 48px;
+        margin-bottom: 30px;
+    }
+
+    .star__image {
+        width: 16.75px;
+        height: 16px;
+    }
+}

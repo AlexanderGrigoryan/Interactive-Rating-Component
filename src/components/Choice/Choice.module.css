@@ -1,0 +1,31 @@
+.choice__container {
+    width: 168px;
+    height: 32px;
+    border-radius: 22.5px;
+    background: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.choice__decision {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #FC7614;
+}
+
+@media screen and (min-width: 1024px) {
+    .choice__container {
+        width: 193px;
+        height: 32px;
+        margin: 32px 0;
+    }
+
+    .choice__decision {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
