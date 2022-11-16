@@ -19,7 +19,7 @@ function App() {
           <Star />
           <Question>How did we do?</Question>
           <Text className="text__inner">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</Text> 
-          <Buttons setSelectNum={setSelectNum} />
+          <Buttons selectNum={selectNum} setSelectNum={setSelectNum} />
           <Submit selectNum={selectNum} setCurrentPage={setCurrentPage} currentPage={currentPage} />
         </div>
         : 
